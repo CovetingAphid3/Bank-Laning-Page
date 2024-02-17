@@ -1,4 +1,4 @@
-import { people01, people02, people03, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, send, shield, star  } from "../assets";
+import { people01, people02, people03, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, send, shield, star } from "../assets";
 
 export const navLinks = [
   {
@@ -7,15 +7,15 @@ export const navLinks = [
   },
   {
     id: "features",
-    title: "Features",
+    title: "Trading Solutions",
   },
   {
     id: "product",
-    title: "Product",
+    title: "Products",
   },
   {
     id: "clients",
-    title: "Clients",
+    title: "Our Clients",
   },
 ];
 
@@ -23,23 +23,23 @@ export const features = [
   {
     id: "feature-1",
     icon: star,
-    title: "Rewards",
+    title: "Market Rewards",
     content:
-      "The best credit cards offer some tantalizing combinations of promotions and prizes",
+      "Unlock exclusive rewards and benefits with our unparalleled trading solutions.",
   },
   {
     id: "feature-2",
     icon: shield,
-    title: "100% Secured",
+    title: "Secure Transactions",
     content:
-      "We take proactive steps make sure your information and transactions are secure.",
+      "We prioritize the security of your financial transactions, ensuring a 100% secure environment.",
   },
   {
     id: "feature-3",
     icon: send,
-    title: "Balance Transfer",
+    title: "Global Trading",
     content:
-      "A balance transfer credit card can save you a lot of money in interest charges.",
+      "Expand your horizons with our global trading platform, facilitating seamless transactions worldwide.",
   },
 ];
 
@@ -47,25 +47,25 @@ export const feedback = [
   {
     id: "feedback-1",
     content:
-      "Money is only a tool. It will take you wherever you wish, but it will not replace you as the driver.",
+      "Money is only a tool. It will take you wherever you wish, but it will not replace you as the trader.",
     name: "Herman Jensen",
-    title: "Founder & Leader",
+    title: "Founder & Trader",
     img: people01,
   },
   {
     id: "feedback-2",
     content:
-      "Money makes your life easier. If you're lucky to have it, you're lucky.",
+      "Money makes your trading journey easier. If you're lucky to have it, you're lucky.",
     name: "Steve Mark",
-    title: "Founder & Leader",
+    title: "Founder & Trader",
     img: people02,
   },
   {
     id: "feedback-3",
     content:
-      "It is usually people in the money business, finance, and international trade that are really rich.",
+      "It is usually people in the money business, finance, and international trade that are really successful.",
     name: "Kenn Gallagher",
-    title: "Founder & Leader",
+    title: "Founder & Trader",
     img: people03,
   },
 ];
@@ -73,21 +73,20 @@ export const feedback = [
 export const stats = [
   {
     id: "stats-1",
-    title: "User Active",
+    title: "Traders Active",
     value: "3800+",
   },
   {
     id: "stats-2",
-    title: "Trusted by Company",
+    title: "Trusted by Traders",
     value: "230+",
   },
   {
     id: "stats-3",
-    title: "Transaction",
+    title: "Total Transactions",
     value: "$230M+",
   },
 ];
-
 export const footerLinks = [
   {
     title: "Useful Links",

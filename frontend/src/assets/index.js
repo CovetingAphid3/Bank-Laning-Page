@@ -1,3 +1,6 @@
+import bank from "./bank.png"
+import paypal from "./paypal.svg"
+import bitcoin from "./bitcoin.svg"
 import airbnb from "./airbnb.png";
 import bill from "./bill.png";
 import binance from "./binance.png";
@@ -25,6 +28,9 @@ import people02 from "./people02.png";
 import people03 from "./people03.png";
 
 export {
+  bank,
+  paypal,
+  bitcoin,
   airbnb,
   bill,
   binance,

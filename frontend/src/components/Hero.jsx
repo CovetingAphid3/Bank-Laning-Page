@@ -1,5 +1,5 @@
 import styles from "../style";
-import { discount, robot } from "../assets";
+import { discount, robot,bitcoin, paypal,bank } from "../assets";
 import GetStarted from "./GetStarted";
 
 
@@ -17,33 +17,26 @@ const Hero = () => {
 
         <div className="flex flex-row justify-between items-center w-full">
           <h1 className="flex-1 font-roboto font-semibold ss:text-[72px] text-[52px] text-white ss:leading-[100.8px] leading-[75px]">
-            The Next <br className="sm:block hidden" />{" "}
-            <span className="text-gradient">Generation</span>{" "}
+          <span className="text-green">Secure</span> and <br className="sm:block hidden" />{" "}
+            <span className="text-green">Convenient</span>{" "}
           </h1>
-          <div className="ss:flex hidden md:mr-4 mr-0">
-            <GetStarted />
-          </div>
+        
         </div>
 
         <h1 className="font-roboto font-semibold ss:text-[68px] text-[52px] text-white ss:leading-[100.8px] leading-[75px] w-full">
-          Payment Method.
+         Payment Methods for Traders. 
         </h1>
         <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-          Our team of experts uses a methodology to identify the credit cards
-          most likely to fit your needs. We examine annual percentage rates,
-          annual fees.
+          Our team of experts ensures hassle-free trading by offering a range of secure payment methods.
+          We prioritize your needs and consider factors like transaction speed and security.
         </p>
       </div>
 
-      <div className={`flex-1 flex ${styles.flexCenter} md:my-0 my-10 relative`}>
-        <img src={robot} alt="billing" className="w-[100%] h-[100%] relative z-[5]" />
-
+      <div className={`flex-1 flex ${styles.flexCenter} md:my-0 my-10 relative flex-col`}>
+        <img src={bitcoin} alt="billing" className="w-[70%] h-[70%] relative z-[5]" />
         
       </div>
 
-      <div className={`ss:hidden ${styles.flexCenter}`}>
-        <GetStarted />
-      </div>
     </section>
   );
 };

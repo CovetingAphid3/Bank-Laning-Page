@@ -133,10 +133,13 @@
 
 .feedback-card {
   background: transparent;
+  transition: all;
+  transition-duration: 300ms;
 }
 
 .feedback-card:hover {
-  background: var(--black-gradient);
+  background: black;
+  
 }
 
 .blue__gradient {

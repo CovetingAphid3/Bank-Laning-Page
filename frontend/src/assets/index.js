@@ -1,6 +1,8 @@
-import bank from "./bank.png"
-import paypal from "./paypal.svg"
-import bitcoin from "./bitcoin.svg"
+import nft from "./nft-6825637.svg";
+import bit from "./bitcoin-225080.svg";
+import bank from "./bank.png";
+import paypal from "./paypal.svg";
+import bitcoin from "./bitcoin.svg";
 import airbnb from "./airbnb.png";
 import bill from "./bill.png";
 import binance from "./binance.png";
@@ -28,6 +30,8 @@ import people02 from "./people02.png";
 import people03 from "./people03.png";
 
 export {
+  nft,
+  bit,
   bank,
   paypal,
   bitcoin,

@@ -17,6 +17,7 @@ const Navbar = () => {
             className={`font-roboto 
             font-normal 
             cursor-pointer
+            hover:text-crimson
              text-[16px] ${index === navLinks.length - 1 ? 'mr-0' : 'mr-10'} text-white mr-10`}
           >
             <a href={`#${nav.id}`}>{nav.title}</a>
@@ -36,7 +37,7 @@ const Navbar = () => {
             {navLinks.map((nav, index) => (
               <li key={nav.id}
                 className={`font-roboto 
-            font-normal 
+            font-bold 
             cursor-pointer
              text-[16px] ${index === navLinks.length - 1 ? 'mr-0' : 'mb-4'} text-white mr-10`}
               >
